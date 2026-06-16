@@ -1,0 +1,1709 @@
+{
+  "id": "snow_villa",
+  "title": "눈은 모든 걸 덮는다",
+  "culpritId": "taeo",
+  "cast": [
+    {
+      "id": "host",
+      "displayName": "윤세현",
+      "role": "host",
+      "description": "별장 주인, 골동품 수집가. 사람의 약점과 비밀을 모으는 취미가 있다.",
+      "motive": "5년 전 공방 화재를 돈으로 덮은 인물. 그날 밤 모인 사람들의 약점을 하나씩 쥐고 있었다.",
+      "testimony": [
+        "오늘 밤엔 오래된 이야기들을 끝낼 생각이야.",
+        "사람들은 저마다 숨기는 게 있지. 신고한 사람도, 입을 닫은 사람도.",
+        "비밀은 덮으라고 있는 거야."
+      ]
+    },
+    {
+      "id": "ryu",
+      "displayName": "류기훈",
+      "role": "suspect",
+      "description": "윤세현의 옛 동업자. 사업을 빼앗기고 몰락했다. 술이 들어가면 거칠어진다.",
+      "motive": "윤세현을 공개적으로 증오한다. 5년 전 은폐 자금을 만진 적이 있고, 그 뒤로 큰돈이 여러 번 오갔다.",
+      "testimony": [
+        "그래, 난 그 인간이 죽길 바랐어. 어젯밤엔 식당에서 혼자 술을 마셨고.",
+        "돈은 받았어. 하지만 난 사람을 죽이진 않았어.",
+        "잠긴 방을 내가 어떻게 들어가."
+      ]
+    },
+    {
+      "id": "dohee",
+      "displayName": "한도희",
+      "role": "staff",
+      "description": "별장 관리인. 모든 방의 구조와 열쇠를 안다. 말수가 적다.",
+      "motive": "5년 전 공방 화재로 동생을 잃었다. 동생은 문 앞에서 죽었다. 그 뒤로 이 별장의 구조와 잠금장치를 누구보다 깊이 파고들었다.",
+      "testimony": [
+        "여벌 열쇠도, 비상 패널 다루는 법도 압니다. 관리인이니까요.",
+        "11시 40분에 시계가 멈춘 걸 봤어요.",
+        "……제 동생은 그 불 속에서, 문 앞에서 죽었어요."
+      ]
+    },
+    {
+      "id": "serin",
+      "displayName": "배세린",
+      "role": "witness",
+      "description": "5년 전 공방 화재 당시 보안실에서 나오는 사람을 봤지만 신고하지 않은 사람. 침묵의 대가로 윤세현에게 매여 있었다.",
+      "motive": "그날 불을 봤고, 보안실에서 나오는 사람도 봤다. 하지만 신고하지 않았다.",
+      "testimony": [
+        "나는… 신고는 안 했어요. 누군가 이미 했을 거라고 생각했으니까.",
+        "그날 보안실에서 누가 나오는 걸 봤어요. 그게…",
+        "나 혼자 본 게 아니에요. 거기, 다른 사람도 있었어요."
+      ]
+    },
+    {
+      "id": "woojin",
+      "displayName": "강우진",
+      "role": "doctor",
+      "description": "윤세현의 주치의였던 의사. 차분하고 논리적이지만 감정이 잘 안 보인다.",
+      "motive": "5년 전 사망 기록을 손봤다. 그 일이 드러날까 늘 말을 아낀다.",
+      "testimony": [
+        "사망 시각은 단정하기 어렵습니다. 추정 범위가 넓어요.",
+        "현장이 이상합니다. 그런데 그걸 말하려면, 제가 먼저 꺼내야 할 게 있어서.",
+        "……아직 말할 단계가 아닙니다."
+      ]
+    },
+    {
+      "id": "minjae",
+      "displayName": "오민재",
+      "role": "journalist",
+      "description": "5년 전 공방 화재를 취재하다 기사를 접은 기자.",
+      "motive": "윤세현 때문에 기자 생명이 끝장났다. 5년 전 자료와 구관 도면을 쥐고 있다. 진실을 밝히려는 건지, 팔려는 건지 모호하다.",
+      "testimony": [
+        "사진은 직업병이라고 해두죠.",
+        "이 별장 구조, 제가 가진 도면이랑 조금 달라요.",
+        "진실은 타이밍이 맞아야 값이 생기죠."
+      ]
+    },
+    {
+      "id": "seoyoon",
+      "displayName": "차서윤",
+      "role": "florist",
+      "description": "별장에 장식용 꽃을 납품한 플로리스트. 꽃을 다루며 약품을 일상으로 쓴다.",
+      "motive": "윤세현이 빚으로 가족 가게를 압박했다.",
+      "testimony": [
+        "그 마른 꽃, 우리 가게 거 맞아요. 근데 제가 놓은 건 아니에요.",
+        "주문은 익명에 현금이었어요. 몇 달째 이 별장으로만.",
+        "꽃을 오래 두려면 약품을 써요. 그뿐이에요."
+      ]
+    },
+    {
+      "id": "taeo",
+      "displayName": "심태오",
+      "role": "tech",
+      "description": "별장 설비 점검을 맡은 기술자. 낡은 보안 장비와 전력 설비를 손본다. 말이 많지 않고, 누군가 자신의 동선을 확인하는 듯 자주 주변을 살핀다.",
+      "motive": "5년 전 윤세현의 지시로 공방 경보와 비상문 제어를 끊었다. 윤세현이 그날의 책임을 모두 자신에게 떠넘길 자료를 공개하려 하자, 증언자와 증거를 없애고 사고사한 것처럼 사라질 계획을 세웠다.",
+      "testimony": [
+        "기록을 확인해 봐야 합니다. 지금은 뭐라 단정 못 해요.",
+        "……그날 보안실에 있었던 건 맞습니다. 하지만 제가 불을 낸 건 아닙니다.",
+        "(주변을 살피며) 누가 어디까지 알고 있는지부터 확인해야겠군요."
+      ]
+    }
+  ],
+  "clues": [
+    {
+      "id": "clue_flower_host",
+      "name": "마른 흰 꽃",
+      "description": "윤세현의 시신 곁에 마른 흰 꽃 한 송이가 놓여 있었다. 5년 전 공방 화재 희생자의 장례식에 쓰인 것과 같은 종류다.",
+      "pointsToId": "dohee",
+      "decisive": false
+    },
+    {
+      "id": "clue_tape",
+      "name": "검은 테이프 조각",
+      "description": "윤세현의 손톱 밑에서 검은 테이프 조각이 나왔다. 표면에는 보일러실 배선 피복에 쓰이는 절연유와 같은 기름, 미세한 구리 가루가 묻어 있다.",
+      "decisive": true
+    },
+    {
+      "id": "clue_item",
+      "name": "낯익은 장신구",
+      "description": "첫 시신 곁에서 {P1}의 장신구가 발견됐다. {P1}은 식사 전 이미 잃어버렸다고 주장했다.",
+      "pointsToId": "PLAYER1",
+      "decisive": false
+    },
+    {
+      "id": "clue_window",
+      "name": "안쪽 유리 조각",
+      "description": "서재 창문 유리 조각 대부분이 방 안쪽에 떨어져 있었다.",
+      "decisive": false
+    },
+    {
+      "id": "clue_no_footprints",
+      "name": "발자국 없는 눈밭",
+      "description": "서재 창문 아래 눈밭은 매끈했다. 새 발자국은 보이지 않는다.",
+      "decisive": false
+    },
+    {
+      "id": "clue_p1_note",
+      "name": "{P1}에게 보낸 쪽지",
+      "description": "윤세현의 책상 서랍에서 접힌 쪽지가 나왔다. ‘네가 신고하기 전 봤던 것, 오늘은 말해야지.’라는 문장이 적혀 있었다.",
+      "pointsToId": "PLAYER1",
+      "decisive": false
+    },
+    {
+      "id": "clue_two_glasses",
+      "name": "와인잔 두 개",
+      "description": "서재 탁자에 와인잔이 두 개 놓여 있었다. 한쪽 잔에는 입술 자국이 없다.",
+      "decisive": false
+    },
+    {
+      "id": "clue_ryu_glass",
+      "name": "깨진 술잔 조각",
+      "description": "깨진 술잔 조각이 서재로 이어지는 복도까지 흩어져 있었다. 류기훈은 혼자 마셨다고 했다.",
+      "pointsToId": "ryu",
+      "decisive": false
+    },
+    {
+      "id": "clue_open_safe",
+      "name": "열린 금고",
+      "description": "서재 한쪽 금고 문이 열려 있고, 안은 비어 있다.",
+      "decisive": false
+    },
+    {
+      "id": "clue_lock",
+      "name": "보안 보조 잠금장치",
+      "description": "서재 문틀 안쪽에 보조 잠금장치가 있다. 보안실에서 원격으로, 관리용 열쇠나 비상 패널로도 여닫을 수 있는 종류다.",
+      "decisive": false
+    },
+    {
+      "id": "clue_hall_mud",
+      "name": "복도의 마른 진흙",
+      "description": "서재 쪽으로 향한 마른 진흙 발자국이 한 줄 남아 있었다. 오늘 밤 흔적인지는 알 수 없다.",
+      "decisive": false
+    },
+    {
+      "id": "clue_memo",
+      "name": "배세린의 찢긴 메모",
+      "description": "메모 가장자리는 찢겨 있고, 손에 쥔 부분엔 몇 마디만 남았다. ‘도희가 아니라…’ ‘문 앞에서…’ ‘{P1}도 봤어… 보안실에서 나온 사람을…’",
+      "decisive": true
+    },
+    {
+      "id": "clue_flower_petals",
+      "name": "마른 꽃잎",
+      "description": "배세린의 시신 주변에 마른 꽃잎 몇 장이 흩어져 있었다.",
+      "pointsToId": "dohee",
+      "decisive": false
+    },
+    {
+      "id": "clue_flower_scent",
+      "name": "꽃잎의 쓴 냄새",
+      "description": "꽃잎에서 희미하게 쓴 약품 냄새가 났다.",
+      "pointsToId": "seoyoon",
+      "decisive": false
+    },
+    {
+      "id": "clue_window_latch",
+      "name": "안에서 걸린 창문",
+      "description": "배세린 방 창문 걸쇠는 안쪽에서 걸려 있었다.",
+      "decisive": false
+    },
+    {
+      "id": "clue_door_scratch",
+      "name": "긁힌 손잡이",
+      "description": "방문 손잡이 안쪽에, 급히 잡은 듯한 긁힘이 나 있었다.",
+      "decisive": false
+    },
+    {
+      "id": "clue_handkerchief",
+      "name": "구겨진 손수건",
+      "description": "침대 밑에서 구겨진 손수건이 나왔다. 희미한 향수 냄새가 나지만 누구 것인지는 알 수 없다.",
+      "pointsToId": "seoyoon",
+      "decisive": false
+    },
+    {
+      "id": "clue_torn_photo",
+      "name": "찢긴 단체 사진",
+      "description": "서랍에서 반쯤 찢긴 단체 사진이 나왔다. 5년 전 공방 사람들로 보이고, 한 사람의 얼굴만 뜯겨 나갔다.",
+      "decisive": false
+    },
+    {
+      "id": "clue_serin_letter",
+      "name": "쓰다 만 편지",
+      "description": "책상에 쓰다 만 편지가 있었다. ‘나는 그날 보안실에서 나온 사람을 봤다. 작업복 소매에 검은 절연 테이프가 붙어 있었다’까지만 적혀 있다.",
+      "decisive": true
+    },
+    {
+      "id": "clue_threat_envelope",
+      "name": "찢어진 봉투",
+      "description": "휴지통에서 윤세현 이름이 적힌 찢어진 봉투가 나왔다.",
+      "pointsToId": "host",
+      "decisive": false
+    },
+    {
+      "id": "clue_button",
+      "name": "떨어진 단추",
+      "description": "바닥에 어두운색 외투 단추 하나가 떨어져 있었다. 여러 사람의 옷과 비슷하다.",
+      "decisive": false
+    },
+    {
+      "id": "clue_serin_clock",
+      "name": "멈춘 초침",
+      "description": "벽시계 초침이 멈춰 있었다. 충격 탓인지 배터리 탓인지는 알 수 없다.",
+      "decisive": false
+    },
+    {
+      "id": "clue_boiler_coat",
+      "name": "피 묻은 작업복",
+      "description": "보일러실 난간에 심태오의 작업복 일부가 피에 젖은 채 걸려 있었다. 그러나 피는 겉면에만 묻었고 안감에는 스며들지 않았다.",
+      "decisive": true
+    },
+    {
+      "id": "clue_boiler_glasses",
+      "name": "깨진 안경",
+      "description": "심태오의 안경이 깨진 채 난간에서 발견됐다. 폭발 가까이에 있었다면 남아야 할 그을음과 열변형이 렌즈에 없다.",
+      "decisive": true
+    },
+    {
+      "id": "clue_boiler_id",
+      "name": "신분증",
+      "description": "심태오의 신분증이 작업복과 함께 난간에 걸려 있었다.",
+      "decisive": false
+    },
+    {
+      "id": "clue_blood",
+      "name": "끊긴 핏자국",
+      "description": "피는 난간 앞에 일부러 문지른 듯 넓게 번져 있지만, 점검구 아래로 이어지는 방울이나 추락 흔적은 없다.",
+      "decisive": true
+    },
+    {
+      "id": "clue_steam",
+      "name": "증기와 검은 물",
+      "description": "점검구 아래에서 뜨거운 증기와 검은 물이 올라와, 바닥이 보이지 않는다. 시신은 확인할 수 없다.",
+      "decisive": false
+    },
+    {
+      "id": "clue_drag_mark",
+      "name": "끌린 자국",
+      "description": "무언가 점검구 쪽으로 끌린 듯한 흔적. 공구 상자를 끈 자국일 수도 있다.",
+      "decisive": false
+    },
+    {
+      "id": "clue_cut_wire",
+      "name": "끊긴 전선",
+      "description": "전선은 폭발로 끊어진 것이 아니라 공구로 가지런히 잘려 있다. 절단면에는 심태오의 멍키스패너에 묻은 것과 같은 검은 절연유가 남아 있다.",
+      "decisive": true
+    },
+    {
+      "id": "clue_wrench",
+      "name": "기름 묻은 멍키스패너",
+      "description": "심태오의 공구로 보이는 멍키스패너. 누구나 집을 수 있었다.",
+      "decisive": false
+    },
+    {
+      "id": "clue_emergency_light",
+      "name": "비상등 흔적",
+      "description": "사건 직전 보일러실 비상등 회로만 유지보수 명령으로 꺼졌다. 명령 기록에는 심태오가 점검 때 쓰던 식별 코드의 앞 두 자리가 남아 있다.",
+      "decisive": true
+    },
+    {
+      "id": "clue_flower_stem",
+      "name": "눌린 마른 꽃대",
+      "description": "바닥 구석에 눌린 마른 꽃대 하나가 떨어져 있었다.",
+      "pointsToId": "dohee",
+      "decisive": false
+    },
+    {
+      "id": "clue_dohee_lie",
+      "name": "젖은 장갑 자국",
+      "description": "계단에 한도희의 장갑과 비슷한 물자국이 남아 있었다. 그는 밤새 실내에만 있었다고 했다.",
+      "pointsToId": "dohee",
+      "decisive": false
+    },
+    {
+      "id": "clue_drug_trace",
+      "name": "약물 흔적",
+      "description": "강우진의 컵에서 그의 의료 가방 약물이 과량으로 검출됐다.",
+      "decisive": false
+    },
+    {
+      "id": "clue_open_medkit",
+      "name": "열린 약품칸",
+      "description": "의료 가방의 약품칸이 열려 있었다. 강우진 본인도 열 수 있는 곳이다.",
+      "decisive": false
+    },
+    {
+      "id": "clue_syringe",
+      "name": "빈 주사기",
+      "description": "처치대에 빈 주사기 하나가 놓여 있었다.",
+      "decisive": false
+    },
+    {
+      "id": "clue_clinic_petal",
+      "name": "마른 꽃가루",
+      "description": "강우진의 컵받침 둘레에 마른 꽃가루가 묻어 있었다.",
+      "pointsToId": "seoyoon",
+      "decisive": false
+    },
+    {
+      "id": "clue_appt_note",
+      "name": "수첩 메모",
+      "description": "강우진의 수첩에 ‘23:00 — 확인’이라고만 적혀 있었다. 상대의 이름은 없다.",
+      "decisive": false
+    },
+    {
+      "id": "clue_corridor_light",
+      "name": "복도등 깜빡임 기록",
+      "description": "강우진이 죽기 전 진료실 앞 복도등이 일반 정전이 아닌 유지보수 명령으로 꺼졌다 켜졌다. 보일러실 비상등 기록과 같은 형식이며, 심태오가 사라진 뒤 입력됐다.",
+      "decisive": true
+    },
+    {
+      "id": "clue_no_prints",
+      "name": "안쪽 지문 부족",
+      "description": "강우진은 방 안에 있었는데 문손잡이 안쪽에 새 지문이 거의 없다. 대신 잠금장치 덮개에 기름 묻은 작업용 장갑 자국이 남아 있다.",
+      "decisive": false
+    },
+    {
+      "id": "clue_chair",
+      "name": "넘어진 의자",
+      "description": "의자가 넘어져 있다. 몸싸움 같기도, 약물 반응 중 넘어진 것 같기도 하다.",
+      "decisive": false
+    },
+    {
+      "id": "clue_wrap_paper",
+      "name": "꽃 포장지 조각",
+      "description": "쓰레기통에서 차서윤 가게의 꽃 포장지 조각이 나왔다. 오래된 장식 포장일 수도 있다.",
+      "pointsToId": "seoyoon",
+      "decisive": false
+    },
+    {
+      "id": "clue_vent",
+      "name": "살짝 열린 환기창",
+      "description": "환기창이 조금 열려 있다. 사람이 드나들 크기는 아니다.",
+      "decisive": false
+    },
+    {
+      "id": "clue_woojin_record",
+      "name": "5년 전 사망 기록 메모",
+      "description": "강우진이 남긴 메모. ‘보일러실의 피는 흘린 피가 아니라 작업복 겉에 묻힌 피다. 추락자는 없었다. 이 사실을 아는 자가 내게 오기로 했다.’",
+      "decisive": true
+    },
+    {
+      "id": "clue_map",
+      "name": "찢긴 도면 조각",
+      "description": "오민재가 쥐고 있던 도면 조각. 보일러실 아래 ‘B-2’ 점검선이 구관 보안실 뒤편 통로와 이어지는 부분까지 그려져 있다. 오른쪽 절반은 찢겨 나갔다.",
+      "decisive": true
+    },
+    {
+      "id": "clue_map_ink",
+      "name": "도면의 다른 잉크",
+      "description": "도면의 덧그린 선은 최근 설비 점검표에 쓰인 검은 잉크와 같다. 선 옆에는 기술자만 쓰는 배선 번호 표기가 남아 있다.",
+      "decisive": true
+    },
+    {
+      "id": "clue_camera",
+      "name": "사라진 메모리카드",
+      "description": "오민재의 카메라는 부서졌지만 저장 슬롯은 억지로 열려 있다. 메모리카드는 사고로 빠진 것이 아니라 누군가 꺼내 간 흔적이다.",
+      "decisive": false
+    },
+    {
+      "id": "clue_recorder",
+      "name": "사라진 녹음기",
+      "description": "오민재가 늘 들고 다니던 녹음기가 사라졌다. 책상에는 ‘태오—책임 전가—원본 제어실’이라고 눌러쓴 자국만 남아 있다.",
+      "decisive": true
+    },
+    {
+      "id": "clue_burned_note",
+      "name": "태운 종이 조각",
+      "description": "재떨이에 최근 태운 종이 조각이 남아 있었다. 글자는 거의 사라졌다.",
+      "decisive": false
+    },
+    {
+      "id": "clue_ryu_payment",
+      "name": "류기훈 송금 기록",
+      "description": "자료 더미에서 류기훈 명의의 송금 기록이 나왔다. 5년 전 화재 이후 큰돈이 여러 번 오갔다.",
+      "pointsToId": "ryu",
+      "decisive": false
+    },
+    {
+      "id": "clue_flower_order",
+      "name": "차서윤 가게 납품장",
+      "description": "자료철에서 꽃 납품장이 나왔다. 익명·현금 주문으로 수개월째 별장에 배송됐으며, 수령 시간은 모두 심태오의 정기 설비 점검일과 겹친다.",
+      "pointsToId": "seoyoon",
+      "decisive": true
+    },
+    {
+      "id": "clue_flower_minjae",
+      "name": "눌린 마른 꽃",
+      "description": "자료철 사이의 눌린 마른 꽃. 꽃대에는 설비용 검은 테이프가 짧게 감겨 있다. 한도희의 복수처럼 보이도록 누군가 표식을 반복한 흔적이다.",
+      "pointsToId": "dohee",
+      "decisive": true
+    },
+    {
+      "id": "clue_auto_lock",
+      "name": "자동잠금 오류 기록",
+      "description": "오민재가 죽은 시간대, 구관 자동잠금에 유지보수 우회 명령이 입력됐다. 보일러실 비상등과 진료실 복도등에 남은 기록을 합치면 심태오의 식별 코드가 완성된다.",
+      "decisive": true
+    },
+    {
+      "id": "clue_maint_log",
+      "name": "낡은 설비 점검표",
+      "description": "창고 선반의 점검표. B-2 점검선과 구관 보안실 뒤편 통로는 최근 1년간 심태오가 단독으로 점검한 구역으로 표시돼 있다.",
+      "decisive": true
+    },
+    {
+      "id": "clue_wallpaper",
+      "name": "긁힌 벽지",
+      "description": "책장 뒤 벽지가 긁혀 있다. 숨은 통로 같지만, 오래된 배선 점검구 흔적일 수도 있다.",
+      "decisive": false
+    },
+    {
+      "id": "clue_ledger",
+      "name": "찢긴 장부",
+      "description": "윤세현이 5년 전 화재를 돈으로 덮은 기록. 여러 사람의 이름이 한 자락씩 적혀 있다.",
+      "decisive": false
+    },
+    {
+      "id": "clue_p1_call_record",
+      "name": "5년 전 신고 기록",
+      "description": "공방 화재 최초 신고자는 {P1}이었다. 기록에는 신고 시각 23:31, ‘공방 쪽에서 연기가 난다’는 내용이 남아 있다.",
+      "pointsToId": "PLAYER1",
+      "decisive": false
+    },
+    {
+      "id": "clue_p1_time_gap",
+      "name": "신고 전의 공백",
+      "description": "오민재의 취재 메모에는 화재 발생 추정 시각과 신고 시각 사이 약 10분의 차이가 적혀 있었다. 그 시간 동안 {P1}은 공방 안의 구조 요청과 보안실에서 나오는 사람을 보고도 움직이지 못했다.",
+      "pointsToId": "PLAYER1",
+      "decisive": false
+    },
+    {
+      "id": "clue_serin_silence",
+      "name": "신고하지 않은 목격자",
+      "description": "배세린은 5년 전 불길을 봤지만 신고하지 않았다. ‘누군가 이미 신고할 거라고 생각했다’고만 말했다.",
+      "pointsToId": "serin",
+      "decisive": false
+    },
+    {
+      "id": "clue_p1_changed_statement",
+      "name": "{P1}의 바뀐 진술",
+      "description": "{P1}은 처음엔 ‘불길을 보자마자 신고했다’고 했다. 신고 전 공백이 드러나자, 공방 안의 구조 요청과 보안실에서 나온 작업복 차림의 사람을 보고 겁에 질려 서 있었다고 털어놓았다.",
+      "pointsToId": "PLAYER1",
+      "decisive": false
+    }
+  ],
+  "scenes": [
+    {
+      "id": "s1_arrival",
+      "title": "1. 눈에 갇힌 별장",
+      "background": "Backgrounds/villa_exterior",
+      "beats": [
+        {
+          "type": "Narration",
+          "text": "폭설로 길이 끊긴 외딴 설산 별장. 윤세현의 초대로 아홉 사람이 모였다. 밤이 깊자 통신도, 도로도 사라졌다."
+        },
+        {
+          "type": "Line",
+          "speaker": "host",
+          "text": "어서들 와요. ……{P1}, 너는 참 운이 좋았지. 신고자라는 이름 하나로, 목격자라는 이름을 피했으니까."
+        },
+        {
+          "type": "Line",
+          "speaker": "PLAYER1",
+          "text": "……무슨 말을 하는지 모르겠네요."
+        },
+        {
+          "type": "Line",
+          "speaker": "host",
+          "text": "알 텐데. 불은 보고 신고했으면서, 그 전에 본 건 끝까지 말하지 않았잖아."
+        },
+        {
+          "type": "Line",
+          "speaker": "ryu",
+          "text": "또 사람 모아놓고 무슨 연극이야. 당신답군, 윤세현."
+        },
+        {
+          "type": "Line",
+          "speaker": "minjae",
+          "text": "(사람들을 훑어보며) 좋은 자리네요. …다들 사연이 있어 보이고."
+        },
+        {
+          "type": "Line",
+          "speaker": "serin",
+          "text": "(창밖만 보며) 저는… 일찍 들어가 쉴게요."
+        },
+        {
+          "type": "Line",
+          "speaker": "dohee",
+          "text": "폭설이 오면 구관 쪽 전력이 자주 흔들립니다. 문이 늦게 열리거나 복도등이 꺼질 수 있어요."
+        },
+        {
+          "type": "Line",
+          "speaker": "taeo",
+          "text": "(사람들을 훑어본 뒤) …구관 설비는 제가 맡습니다. 정전이 나도 임의로 보안실이나 지하에 들어오지 마세요."
+        },
+        {
+          "type": "RpBeat",
+          "rpActor": "BOTH",
+          "rpPrompt": "낯선 사람들, 묘한 긴장. 단둘이 남은 두 사람의 대화를 RP 하세요. 누가 수상한지, 왜 초대받았는지 — 충분히 주고받으세요."
+        },
+        {
+          "type": "Narration",
+          "text": "이 밤, 여기 모인 누구도 결백하지 않다. 다만 아직 아무도 그걸 모른다."
+        }
+      ]
+    },
+    {
+      "id": "s2_dinner",
+      "title": "2. 마지막 만찬",
+      "background": "Backgrounds/villa_kitchen",
+      "beats": [
+        {
+          "type": "Narration",
+          "text": "벽난로 앞 만찬. 윤세현은 와인을 돌리며 한 사람씩 약점을 건드린다."
+        },
+        {
+          "type": "Line",
+          "speaker": "host",
+          "text": "류기훈, 빚은 좀 갚았나? 강 선생, 그 ‘사고’ 기록은 잘 있고? 오 기자, 묻은 기사 맛이 어떤가? 차 사장 가게는 위태롭다지."
+        },
+        {
+          "type": "Line",
+          "speaker": "host",
+          "text": "배세린은 보고도 입을 닫았고, {P1}은 신고하고도 입을 닫았지. 사람은 같은 불을 보고도 각자 다른 침묵을 고르거든."
+        },
+        {
+          "type": "Line",
+          "speaker": "PLAYER2",
+          "text": "{P1}, 너… 5년 전 화재랑 관련 있었어?"
+        },
+        {
+          "type": "Line",
+          "speaker": "PLAYER1",
+          "text": "관련이라니. 그냥 신고했을 뿐이야."
+        },
+        {
+          "type": "RpBeat",
+          "rpActor": "BOTH",
+          "rpPrompt": "주방에 나란히 선 두 사람. 윤세현이 흘린 말들 때문에 흔들리는 마음을 RP 하세요. (잠시 뒤 협력 요리 미니게임)"
+        },
+        {
+          "type": "Minigame",
+          "minigameId": "cooking"
+        },
+        {
+          "type": "Narration",
+          "text": "식사 뒤 윤세현은 서재로 들어가 문을 안에서 잠갔다. “내일 아침이면 원본 장부와 녹음을 전부 공개할 거야. 누가 지시했고, 누가 직접 경보를 껐는지도.”"
+        }
+      ]
+    },
+    {
+      "id": "s3_incident1",
+      "title": "3. 첫 번째 사건 — 잠긴 서재",
+      "background": "Backgrounds/study_room",
+      "beats": [
+        {
+          "type": "Narration",
+          "text": "[사건] 새벽 두 시, 비명. 안에서 잠긴 서재를 한도희가 여벌 열쇠로 열었다. 윤세현이 책상 앞에 식어 있었다."
+        },
+        {
+          "type": "Line",
+          "speaker": "ryu",
+          "text": "창문이 깨졌잖아! 밖에서 누가 들어온 거야. 우리 중엔 범인이 없어!"
+        },
+        {
+          "type": "Narration",
+          "text": "[조사] 서재 곳곳에 살펴볼 자리가 많다. 둘이서 각자 세 곳씩 — 무엇을 볼지 의논해 고르자. 전부는 볼 수 없다. (대화는 언제든 가능)"
+        },
+        {
+          "type": "Minigame",
+          "minigameId": "search",
+          "searchBudget": 3,
+          "searchSpots": [
+            {
+              "label": "시신 곁의 마른 흰 꽃을 본다",
+              "clueId": "clue_flower_host"
+            },
+            {
+              "label": "시신 손톱 밑 검은 조각을 본다",
+              "clueId": "clue_tape"
+            },
+            {
+              "label": "시신 주변의 {P1} 장신구를 본다",
+              "clueId": "clue_item"
+            },
+            {
+              "label": "창문 안쪽 유리 조각을 본다",
+              "clueId": "clue_window"
+            },
+            {
+              "label": "창밖 눈밭을 살핀다",
+              "clueId": "clue_no_footprints"
+            },
+            {
+              "label": "책상 서랍의 접힌 쪽지를 펴 본다",
+              "clueId": "clue_p1_note"
+            },
+            {
+              "label": "탁자의 와인잔 두 개를 본다",
+              "clueId": "clue_two_glasses"
+            },
+            {
+              "label": "바닥의 깨진 술잔 조각을 본다",
+              "clueId": "clue_ryu_glass"
+            },
+            {
+              "label": "열린 금고 안을 본다",
+              "clueId": "clue_open_safe"
+            },
+            {
+              "label": "문틀 안쪽 보조 잠금장치를 본다",
+              "clueId": "clue_lock"
+            },
+            {
+              "label": "복도의 마른 진흙 자국을 본다",
+              "clueId": "clue_hall_mud"
+            }
+          ]
+        },
+        {
+          "type": "Narration",
+          "text": "[심문] 손에 쥔 단서로 사람들을 추궁한다. 증언은 서로 어긋나고, 누구 말이 맞는지는 아무도 말해 주지 않는다. (단서 노트는 Tab)"
+        },
+        {
+          "type": "Interrogation",
+          "text": "남은 사람들을 한 명씩 추궁한다.",
+          "suspects": [
+            "ryu",
+            "dohee",
+            "woojin",
+            "minjae",
+            "seoyoon",
+            "serin",
+            "taeo"
+          ],
+          "testimonies": {
+            "ryu": [
+              "난 식당에서 혼자 술을 마셨어. 그게 전부야.",
+              "복도에 술잔 조각? …떨어뜨렸을 수도 있지. 그게 뭐 어떻다고."
+            ],
+            "dohee": [
+              "여벌 열쇠로 문을 연 건 접니다. 열었을 땐 이미 식어 있었어요.",
+              "잠금장치 다루는 법은 압니다. 관리인이니까요. 그뿐이에요."
+            ],
+            "woojin": [
+              "사망 시각은 단정하기 어렵습니다. 유리는 안쪽으로 떨어졌고, 손톱 밑에는 배선용 기름이 묻어 있더군요.",
+              "피해자가 죽기 직전 누군가와 몸싸움했을 가능성은 있습니다."
+            ],
+            "minjae": [
+              "안에서 잠긴 방이었죠. 어떻게 들어갔을까요.",
+              "이 별장 구조, 제 도면이랑 조금 달라요."
+            ],
+            "seoyoon": [
+              "그 꽃, 우리 가게 거 맞아요. 근데 제가 놓은 건 아니에요.",
+              "전 이 방엔 들어온 적도 없어요."
+            ],
+            "serin": [
+              "전 일찍 방에 들어가 있었어요. 아무것도 못 봤어요.",
+              "……5년 전 그날도, 저는 신고를 안 했어요. 그게 자꾸 떠올라서."
+            ],
+            "taeo": [
+              "보조 잠금은 보안실에서도 건드릴 수 있습니다. 하지만 오늘 밤 그 기록은 끊겨 있어요.",
+              "손톱 밑 테이프요? 설비를 다루는 사람만 쓰는 물건은 아닙니다."
+            ]
+          }
+        },
+        {
+          "type": "Deduction",
+          "text": "창문 유리는 안쪽에 떨어졌고, 눈밭엔 발자국이 없다. 이 두 가지를 두고 무엇을 말할 수 있나?",
+          "choices": [
+            {
+              "text": "두 사실은 외부 침입이라는 설명과 잘 맞지 않는다.",
+              "correct": true,
+              "feedback": "유리는 안쪽, 눈밭은 매끈하다. 앞뒤가 어긋난다. — 다만 그게 누구를 가리키는지는, 여기 아무것도 말해 주지 않는다."
+            },
+            {
+              "text": "범인은 눈이 다시 덮일 시간을 계산해 밖으로 나갔다.",
+              "correct": false,
+              "feedback": "이 폭설에 발자국이 그 시간에 메워지긴 어렵다. 그래도 — 단정하긴 이르다."
+            },
+            {
+              "text": "복도의 진흙을 보면, 누군가 분명 바깥을 다녀왔다.",
+              "correct": false,
+              "feedback": "가능성은 있다. 하지만 그 진흙이 오늘 밤 것인지조차, 아직 닫히지 않는 틈이 남는다."
+            }
+          ]
+        },
+        {
+          "type": "RpBeat",
+          "rpActor": "PLAYER1",
+          "rpPrompt": "{P1}에게 의심이 쏠립니다. 장신구도, 5년 전 신고 이야기도 {P1}을 향합니다. {P1}의 입장에서 해명하거나 흔들리는 모습을 RP 하세요."
+        }
+      ]
+    },
+    {
+      "id": "s4_incident2",
+      "title": "4. 두 번째 사건 — 배세린",
+      "background": "Backgrounds/serin_room",
+      "beats": [
+        {
+          "type": "Line",
+          "speaker": "serin",
+          "text": "그날… 불이 났을 때, 나 혼자 본 게 아니에요. {P1}도 거기 있었어요. 그런데 그 사람은 신고를… 아니, 그 전에——"
+        },
+        {
+          "type": "Narration",
+          "text": "[사건] 배세린은 말을 끝내지 못하고 자리를 떴다. 그리고 얼마 뒤, 자기 방에서 죽은 채 발견됐다. 바닥엔 마른 꽃잎 몇 장, 손엔 찢긴 메모."
+        },
+        {
+          "type": "Narration",
+          "text": "[조사] 방 안에 살펴볼 자리가 많다. 각자 세 곳씩, 무엇을 볼지 의논해 고르자."
+        },
+        {
+          "type": "Minigame",
+          "minigameId": "search",
+          "searchBudget": 3,
+          "searchSpots": [
+            {
+              "label": "시신 손의 찢긴 메모를 펴 본다",
+              "clueId": "clue_memo"
+            },
+            {
+              "label": "바닥의 마른 꽃잎을 살핀다",
+              "clueId": "clue_flower_petals"
+            },
+            {
+              "label": "꽃잎의 냄새를 맡아 본다",
+              "clueId": "clue_flower_scent"
+            },
+            {
+              "label": "창문 걸쇠를 확인한다",
+              "clueId": "clue_window_latch"
+            },
+            {
+              "label": "문손잡이 안쪽을 본다",
+              "clueId": "clue_door_scratch"
+            },
+            {
+              "label": "침대 밑 손수건을 살핀다",
+              "clueId": "clue_handkerchief"
+            },
+            {
+              "label": "서랍 속 찢긴 사진을 본다",
+              "clueId": "clue_torn_photo"
+            },
+            {
+              "label": "책상의 쓰다 만 편지를 읽는다",
+              "clueId": "clue_serin_letter"
+            },
+            {
+              "label": "휴지통의 찢어진 봉투를 본다",
+              "clueId": "clue_threat_envelope"
+            },
+            {
+              "label": "바닥에 떨어진 단추를 줍는다",
+              "clueId": "clue_button"
+            },
+            {
+              "label": "멈춘 벽시계를 본다",
+              "clueId": "clue_serin_clock"
+            }
+          ]
+        },
+        {
+          "type": "Narration",
+          "text": "[심문] 두 번째 시신 앞에서, 남은 사람들을 다시 추궁한다."
+        },
+        {
+          "type": "Interrogation",
+          "text": "남은 사람들을 한 명씩 추궁한다.",
+          "suspects": [
+            "ryu",
+            "dohee",
+            "woojin",
+            "minjae",
+            "seoyoon",
+            "taeo"
+          ],
+          "testimonies": {
+            "ryu": [
+              "배세린이랑은 말도 안 섞었어. 메모에 도희 이름이 있다며.",
+              "왜 자꾸 날 봐. {P1} 이름도 거기 적혀 있다던데."
+            ],
+            "dohee": [
+              "메모가 절 가리킨다고요. …그렇게 보이게 잘려 있죠.",
+              "그 꽃은 제 동생 장례식 꽃과 같은 종류예요. 절 아는 사람이라면 누구든 알죠."
+            ],
+            "woojin": [
+              "배세린의 목엔 질식 흔적이 있었어요. 죽기 직전, 뭔가를 말하려 했고요.",
+              "그게 누구 이름이었는지는… 저도 못 들었습니다."
+            ],
+            "minjae": [
+              "배세린은 5년 전에도 뭔가를 봤어요. 끝내 말하지 못했죠.",
+              "메모에 이름이 둘이나 남았더군요. 한도희, 그리고 {P1}."
+            ],
+            "seoyoon": [
+              "그 꽃잎, 우리 가게 거 맞아요. 주문은 익명·현금이었다니까요.",
+              "약품 냄새요? 꽃을 오래 두려면 써요. 그게 뭘 뜻하는지 난 몰라요."
+            ],
+            "taeo": [
+              "(주변을 살피며) …저는 그 방 근처에도 안 갔습니다.",
+              "기록을 확인해 봐야 한다니까요."
+            ]
+          }
+        },
+        {
+          "type": "Deduction",
+          "text": "배세린은 ‘보안실에서 나온 사람’과 ‘그 장면을 본 {P1}’을 따로 말하려 했다. 무엇을 말할 수 있나?",
+          "choices": [
+            {
+              "text": "배세린은 {P1}을 범인이라 지목한 것이 아니라, 같은 장면을 본 목격자로 구분해 말하고 있었다.",
+              "correct": true,
+              "feedback": "‘나온 사람’과 ‘그걸 본 사람’은 같은 자리가 아니다. {P1}의 침묵은 의심스럽지만, 배세린의 말만으로 살인범이 되지는 않는다."
+            },
+            {
+              "text": "정황대로, 한도희가 범인이다.",
+              "correct": false,
+              "feedback": "메모의 ‘도희가’ 뒤에는 ‘아니라’가 이어졌을 가능성이 있다. 잘린 이름만으로 결론낼 수 없다."
+            },
+            {
+              "text": "정황대로, {P1}이 범인이다.",
+              "correct": false,
+              "feedback": "{P1}은 현장을 본 목격자일 수 있다. 목격 사실과 살인은 구분해야 한다."
+            }
+          ]
+        },
+        {
+          "type": "Choice",
+          "text": "{P2} — 장신구도, 메모도, 5년 전 이야기도 자꾸 {P1}을 향한다. 어떻게 하겠는가?",
+          "choices": [
+            {
+              "text": "무슨 일이 있어도 {P1}을 믿는다.",
+              "toneTag": "warm",
+              "setFlag": "trust_yes"
+            },
+            {
+              "text": "……지금은, 나조차 확신할 수 없다.",
+              "toneTag": "cold",
+              "setFlag": "trust_no"
+            }
+          ]
+        },
+        {
+          "type": "RpBeat",
+          "rpActor": "BOTH",
+          "rpPrompt": "의심이 두 사람 사이를 비집고 든다. ‘믿고 싶다’와 ‘믿을 수 있다’ 사이에서 부딪치고 흔들리는 대화를 충분히 RP 하세요. (이 게임에서 가장 무거운 장면)"
+        }
+      ]
+    },
+    {
+      "id": "s5_past",
+      "title": "5. 5년 전, 공방 화재",
+      "background": "Backgrounds/villa_hall",
+      "beats": [
+        {
+          "type": "Line",
+          "speaker": "minjae",
+          "text": "이제 말하죠. 5년 전 공방 화재 — 내가 덮은 기사예요. 여기 있는 사람들, 거의 다 거기 엮여 있어요."
+        },
+        {
+          "type": "Line",
+          "speaker": "minjae",
+          "text": "오해 마요. 난 정의감으로 온 게 아닙니다. 진실은… 타이밍이 맞아야 값이 생기죠. 지금은, 어쩌면 딱 맞을지도 모르고."
+        },
+        {
+          "type": "GiveClue",
+          "clueId": "clue_ledger"
+        },
+        {
+          "type": "GiveClue",
+          "clueId": "clue_p1_call_record"
+        },
+        {
+          "type": "GiveClue",
+          "clueId": "clue_p1_time_gap"
+        },
+        {
+          "type": "Line",
+          "speaker": "PLAYER2",
+          "text": "(……신고까지 10분. {P1}, 너는 그동안 공방 안의 소리를 듣고, 보안실에서 누가 나오는 것도 봤던 거야?)"
+        },
+        {
+          "type": "GiveClue",
+          "clueId": "clue_serin_silence"
+        },
+        {
+          "type": "Line",
+          "speaker": "dohee",
+          "text": "……그 불로 제 동생이 문 앞에서 죽었어요. 비상문 제어가 끊겨 끝내 열리지 않았습니다. 그 장치를 건드린 사람은 아직 여기 있어요."
+        },
+        {
+          "type": "RpBeat",
+          "rpActor": "BOTH",
+          "rpPrompt": "모두가 한 자락씩 죄를 안고 있었습니다. 그리고 {P1}의 이름도 그 한가운데 있습니다. 그 사실을 마주한 두 사람의 대화를 RP 하세요."
+        }
+      ]
+    },
+    {
+      "id": "s6_incident3",
+      "title": "6. 세 번째 사건 — 사라진 심태오",
+      "background": "Backgrounds/boiler_room",
+      "beats": [
+        {
+          "type": "Line",
+          "speaker": "taeo",
+          "text": "…지하 원본 장치를 확인하겠습니다. 윤세현이 말한 기록이 남아 있다면, 누가 5년 전 경보를 끊었는지도 드러날 테니까."
+        },
+        {
+          "type": "Narration",
+          "text": "[사건] 몇 분 뒤 별장의 불이 꺼졌다. 지하에서 폭발음. 사람들이 보일러실로 달려갔을 때, 열린 점검구 아래로는 뜨거운 증기와 검은 물이 솟구치고 있었다. 손전등을 비춰도 바닥은 보이지 않았다. 난간엔 작업복 일부와 깨진 안경, 신분증만 걸려 있었다."
+        },
+        {
+          "type": "Line",
+          "speaker": "dohee",
+          "text": "더 내려가 볼게요. 아래에——"
+        },
+        {
+          "type": "Line",
+          "speaker": "woojin",
+          "text": "안 됩니다. 지금 내려가면 한 명 더 죽어요. 이 증기에, 이 어둠에."
+        },
+        {
+          "type": "Narration",
+          "text": "[조사] 난간과 점검구 둘레, 설비까지 — 살펴볼 자리가 많다. 각자 세 곳씩, 무엇을 볼지 의논해 고르자."
+        },
+        {
+          "type": "Minigame",
+          "minigameId": "search",
+          "searchBudget": 3,
+          "searchSpots": [
+            {
+              "label": "난간의 피 묻은 작업복을 본다",
+              "clueId": "clue_boiler_coat"
+            },
+            {
+              "label": "난간의 깨진 안경을 본다",
+              "clueId": "clue_boiler_glasses"
+            },
+            {
+              "label": "난간의 신분증을 본다",
+              "clueId": "clue_boiler_id"
+            },
+            {
+              "label": "바닥의 핏자국을 따라가 본다",
+              "clueId": "clue_blood"
+            },
+            {
+              "label": "점검구 아래를 들여다본다",
+              "clueId": "clue_steam"
+            },
+            {
+              "label": "바닥의 끌린 자국을 살핀다",
+              "clueId": "clue_drag_mark"
+            },
+            {
+              "label": "끊긴 전선을 살핀다",
+              "clueId": "clue_cut_wire"
+            },
+            {
+              "label": "떨어진 멍키스패너를 본다",
+              "clueId": "clue_wrench"
+            },
+            {
+              "label": "벽면 비상등 회로를 확인한다",
+              "clueId": "clue_emergency_light"
+            },
+            {
+              "label": "구석의 눌린 꽃대를 본다",
+              "clueId": "clue_flower_stem"
+            },
+            {
+              "label": "계단의 젖은 장갑 자국을 본다",
+              "clueId": "clue_dohee_lie"
+            }
+          ]
+        },
+        {
+          "type": "Line",
+          "speaker": "woojin",
+          "text": "감전과 추락이 겹쳤다면 생존 가능성은 낮습니다. 다만 시신을 확인하지 못한 이상 사망을 확정할 수는 없습니다."
+        },
+        {
+          "type": "Line",
+          "speaker": "ryu",
+          "text": "그러고 보니, 심태오가 내려가기 전에 {P1} 네가 보안실 쪽에서 나오는 걸 봤어. 신고자라더니, 이제는 보안실까지 드나드나?"
+        },
+        {
+          "type": "Line",
+          "speaker": "PLAYER1",
+          "text": "……확인하고 싶었어. 5년 전 내가 본 게, 정말 그곳이었는지."
+        },
+        {
+          "type": "Narration",
+          "text": "[심문] 심태오가 사라진 뒤, 남은 사람들을 추궁한다."
+        },
+        {
+          "type": "Interrogation",
+          "text": "남은 사람들을 한 명씩 추궁한다.",
+          "suspects": [
+            "ryu",
+            "dohee",
+            "woojin",
+            "minjae",
+            "seoyoon"
+          ],
+          "testimonies": {
+            "ryu": [
+              "폭발음 났을 때 난 홀에 있었어. {P1}은 보안실 쪽에 있었고.",
+              "셋이나 죽었어. 이젠 누구도 못 믿겠군."
+            ],
+            "dohee": [
+              "전 아직 그 지하가 마음에 걸려요. 다들 너무 빨리 포기했어요.",
+              "저라면… 제 동생 때처럼, 끝까지 확인했을 겁니다."
+            ],
+            "woojin": [
+              "피가 너무 적습니다. 더 이상한 건 작업복 안쪽에 피가 스며들지 않았다는 점이에요.",
+              "추락했다면 아래로 이어져야 할 흔적도 없습니다. 누군가 죽음을 연출했을 가능성이 있습니다."
+            ],
+            "minjae": [
+              "점검구 아래는 B-2 점검선으로 이어집니다. 막다른 곳이 아니라는 뜻이죠.",
+              "그 길을 정확히 아는 사람은 도면을 가진 저와, 실제로 점검한 기술자 정도입니다."
+            ],
+            "seoyoon": [
+              "진료실이요? 전 거기 간 적 없어요. 정말이에요.",
+              "또 마른 꽃이라뇨. 난 가게 재고가 누구 손에 갔는지도 몰라요."
+            ]
+          }
+        },
+        {
+          "type": "Deduction",
+          "text": "작업복의 피는 겉면에만 묻었고, 안경엔 그을음이 없으며, 핏자국은 점검구 아래로 이어지지 않았다. 무엇을 말할 수 있나?",
+          "choices": [
+            {
+              "text": "심태오가 추락해 죽었다기보다, 죽은 것처럼 현장을 꾸미고 다른 길로 빠져나갔을 가능성이 높다.",
+              "correct": true,
+              "feedback": "세 흔적 모두 실제 추락과 맞지 않는다. 이제 심태오는 ‘피해자’가 아니라 다시 의심 대상에 올라온다."
+            },
+            {
+              "text": "한도희가 심태오를 죽이고 꽃으로 복수를 표시했다.",
+              "correct": false,
+              "feedback": "꽃은 한도희를 가리키지만, 작업복과 안경, 핏자국의 모순을 설명하지 못한다."
+            },
+            {
+              "text": "{P1}이 보안실에서 폭발 장치를 작동시켰다.",
+              "correct": false,
+              "feedback": "{P1}의 동선은 의심스럽지만, 심태오의 소지품이 미리 연출된 이유까지 설명하지 못한다."
+            }
+          ]
+        },
+        {
+          "type": "RpBeat",
+          "rpActor": "BOTH",
+          "rpPrompt": "셋이 죽었고(그렇게 믿고 있고), 누구든 다음이 될 수 있습니다. {P1}을 향한 의심은 점점 짙어집니다. 두려움 속에서 서로를 붙드는 대화를 RP 하세요."
+        }
+      ]
+    },
+    {
+      "id": "s7_incident4",
+      "title": "7. 네 번째 사건 — 강우진",
+      "background": "Backgrounds/villa_hall",
+      "beats": [
+        {
+          "type": "Narration",
+          "text": "[사건] {P1}은 계속 불리하다. 첫 사건 때 서재 근처에 있었고, 심태오가 사라지기 전엔 보안실 근처에도 있었으며, 5년 전 신고 전의 공백도 설명하지 못했다."
+        },
+        {
+          "type": "Line",
+          "speaker": "woojin",
+          "text": "그 보일러실… 추락자는 없었습니다. 피는 흘린 게 아니라 묻힌 겁니다. 죽은 줄 아는 사람이 아직 이 별장 안에——"
+        },
+        {
+          "type": "Narration",
+          "text": "강우진은 말을 끝맺지 못했다. 그날 밤, 그는 임시 진료실에서 죽은 채 발견됐다. 의료 가방은 열려 있고, 컵엔 약물 흔적. 자기 가방의 약이 과량으로 쓰였다."
+        },
+        {
+          "type": "Narration",
+          "text": "[조사] 진료실에 살펴볼 자리가 많다. 각자 세 곳씩, 무엇을 볼지 의논해 고르자."
+        },
+        {
+          "type": "Minigame",
+          "minigameId": "search",
+          "searchBudget": 3,
+          "searchSpots": [
+            {
+              "label": "컵의 약물 흔적을 검사한다",
+              "clueId": "clue_drug_trace"
+            },
+            {
+              "label": "의료 가방 약품칸을 본다",
+              "clueId": "clue_open_medkit"
+            },
+            {
+              "label": "처치대의 빈 주사기를 본다",
+              "clueId": "clue_syringe"
+            },
+            {
+              "label": "컵받침의 꽃가루를 살핀다",
+              "clueId": "clue_clinic_petal"
+            },
+            {
+              "label": "책상 수첩을 넘겨 본다",
+              "clueId": "clue_appt_note"
+            },
+            {
+              "label": "복도등 점멸 기록을 확인한다",
+              "clueId": "clue_corridor_light"
+            },
+            {
+              "label": "문손잡이 안쪽 지문을 본다",
+              "clueId": "clue_no_prints"
+            },
+            {
+              "label": "넘어진 의자를 살핀다",
+              "clueId": "clue_chair"
+            },
+            {
+              "label": "쓰레기통의 꽃 포장지를 본다",
+              "clueId": "clue_wrap_paper"
+            },
+            {
+              "label": "살짝 열린 환기창을 본다",
+              "clueId": "clue_vent"
+            },
+            {
+              "label": "진료 기록의 메모를 읽는다",
+              "clueId": "clue_woojin_record"
+            }
+          ]
+        },
+        {
+          "type": "GiveClue",
+          "clueId": "clue_p1_changed_statement"
+        },
+        {
+          "type": "Narration",
+          "text": "추궁이 거세지자 {P1}은 말을 바꿨다. ‘보자마자 신고했다’던 처음과 달리, 한동안 골목에 서 있었다고 했다."
+        },
+        {
+          "type": "Narration",
+          "text": "[심문] 네 번째 시신을 앞에 두고, 얼마 남지 않은 사람들을 추궁한다."
+        },
+        {
+          "type": "Interrogation",
+          "text": "남은 사람들을 한 명씩 추궁한다.",
+          "suspects": [
+            "ryu",
+            "dohee",
+            "minjae",
+            "seoyoon"
+          ],
+          "testimonies": {
+            "ryu": [
+              "강우진이 보일러실 얘길 꺼내다 죽었어. 그 말 듣던 사람이 누구였더라.",
+              "난 그 의사랑 척진 적 없어. …{P1}은 강우진이랑 말다툼했지만."
+            ],
+            "dohee": [
+              "강우진은 제 동생 기록을 손본 사람이에요. 미웠죠. 하지만 그가 마지막에 보던 건 제 과거가 아니라 보일러실 흔적이었습니다.",
+              "누군가 심태오가 살아 있다는 말을 끝내지 못하게 한 겁니다."
+            ],
+            "minjae": [
+              "강우진은 자기 과거 때문에 침묵했지만, 보일러실 결론만큼은 남기려 했습니다.",
+              "그가 죽은 뒤 복도등이 유지보수 명령으로 꺼졌다면, 죽은 기술자의 손부터 의심해야죠."
+            ],
+            "seoyoon": [
+              "……꽃병을 치우러 진료실에 잠깐 들른 건 맞아요. 하지만 그때 강우진 씨는 살아 있었어요.",
+              "약은 몰라요. 꽃에 쓰는 약품이랑 사람한테 쓰는 약은 달라요."
+            ]
+          }
+        },
+        {
+          "type": "Deduction",
+          "text": "강우진은 ‘추락자는 없었다’고 말하려 했고, 직후 유지보수 명령으로 복도등이 꺼진 뒤 죽었다. 무엇을 말할 수 있나?",
+          "choices": [
+            {
+              "text": "심태오의 위장 사망을 간파한 강우진이, 그 사실을 밝히기 전에 제거됐을 가능성이 높다.",
+              "correct": true,
+              "feedback": "강우진의 마지막 말과 심태오 전용 기록이 한 방향을 가리킨다. 두 사건은 따로 떨어져 있지 않다."
+            },
+            {
+              "text": "강우진은 자기 약을 잘못 마셔 우연히 죽었다.",
+              "correct": false,
+              "feedback": "약물은 과량이었고, 직전 복도등에는 외부 조작 기록이 남았다."
+            },
+            {
+              "text": "한도희가 사망 기록 조작에 복수하려 강우진을 죽였다.",
+              "correct": false,
+              "feedback": "동기는 있지만 강우진의 마지막 말과 유지보수 명령을 함께 설명하지 못한다."
+            }
+          ]
+        },
+        {
+          "type": "Choice",
+          "text": "{P2} — 강우진과 말다툼했고, 진술까지 바꾼 {P1}에게 시선이 쏠린다. 어떻게 하겠는가?",
+          "choices": [
+            {
+              "text": "{P1}에게 전부 말하게 한다. 동선도, 거짓말도.",
+              "toneTag": "tense",
+              "setFlag": "pressed_p1"
+            },
+            {
+              "text": "흔들려도, 지금은 {P1} 곁에 선다.",
+              "toneTag": "warm",
+              "setFlag": "stood_by_p1"
+            }
+          ]
+        },
+        {
+          "type": "RpBeat",
+          "rpActor": "BOTH",
+          "rpPrompt": "‘믿고 싶다’만으로는 버틸 수 없는 순간. {P1}은 5년 전 신고 전에 무엇을 했는지, 오늘 밤 어디를 다녔는지 털어놓고, {P2}는 그 말을 받아들이려 애씁니다. 두 사람의 대화를 RP 하세요."
+        }
+      ]
+    },
+    {
+      "id": "s8_incident5",
+      "title": "8. 다섯 번째 사건 — 오민재",
+      "background": "Backgrounds/villa_hall",
+      "beats": [
+        {
+          "type": "Line",
+          "speaker": "minjae",
+          "text": "구관 도면을 다시 맞춰봤어요. B-2는 막다른 점검구가 아닙니다. 보안실 뒤편으로 이어져요. 심태오가 사라진 곳에서, 사람이 빠져나갈 수 있었다는 뜻입니다."
+        },
+        {
+          "type": "Narration",
+          "text": "[사건] 오민재는 그날 밤 구관 자료실에서 죽은 채 발견됐다. 자료철 사이엔 눌린 마른 꽃 한 송이. 책상엔 그가 파헤치던 자료가 흩어져 있다."
+        },
+        {
+          "type": "Narration",
+          "text": "[조사] 자료실 곳곳에 살펴볼 자리가 많다. 각자 세 곳씩 — 마지막 조사다. 무엇을 볼지 신중히 고르자."
+        },
+        {
+          "type": "Minigame",
+          "minigameId": "search",
+          "searchBudget": 3,
+          "searchSpots": [
+            {
+              "label": "오민재가 쥔 도면 조각을 본다",
+              "clueId": "clue_map"
+            },
+            {
+              "label": "도면 조각의 잉크를 자세히 본다",
+              "clueId": "clue_map_ink"
+            },
+            {
+              "label": "부서진 카메라를 살핀다",
+              "clueId": "clue_camera"
+            },
+            {
+              "label": "늘 쓰던 녹음기를 찾아본다",
+              "clueId": "clue_recorder"
+            },
+            {
+              "label": "재떨이의 태운 종이를 살핀다",
+              "clueId": "clue_burned_note"
+            },
+            {
+              "label": "자료 더미의 송금 기록을 본다",
+              "clueId": "clue_ryu_payment"
+            },
+            {
+              "label": "자료철의 꽃 납품장을 본다",
+              "clueId": "clue_flower_order"
+            },
+            {
+              "label": "자료철 사이 눌린 꽃을 본다",
+              "clueId": "clue_flower_minjae"
+            },
+            {
+              "label": "구관 자동잠금 기록을 확인한다",
+              "clueId": "clue_auto_lock"
+            },
+            {
+              "label": "선반의 낡은 설비 점검표를 본다",
+              "clueId": "clue_maint_log"
+            },
+            {
+              "label": "책장 뒤 긁힌 벽지를 살핀다",
+              "clueId": "clue_wallpaper"
+            }
+          ]
+        },
+        {
+          "type": "Narration",
+          "text": "[심문] 다섯 번째 시신 앞에서, 이제 몇 남지 않은 사람들을 추궁한다."
+        },
+        {
+          "type": "Interrogation",
+          "text": "남은 사람들을 한 명씩 추궁한다.",
+          "suspects": [
+            "ryu",
+            "dohee",
+            "seoyoon"
+          ],
+          "testimonies": {
+            "ryu": [
+              "송금 기록? …그래, 돈은 받았어. 하지만 사람을 죽이진 않았다고.",
+              "오민재가 그걸 쥐고 있었으니, 내가 죽였다고 하고 싶겠지. 아니야."
+            ],
+            "dohee": [
+              "꽃도 열쇠도 죽은 동생도 전부 절 가리키게 꾸며졌어요. 누군가 제 원한을 범행 서명처럼 쓴 겁니다.",
+              "꽃 납품일이 심태오 점검일과 겹친다면, 그 표식을 준비할 수 있던 사람도 달라집니다."
+            ],
+            "seoyoon": [
+              "익명 주문품은 늘 설비 점검 시간 무렵 수령됐어요. 전 수령인의 얼굴을 본 적은 없지만 작업용 장갑을 끼고 있었어요.",
+              "오민재 도면의 번호 표기는 꽃집 사람이 흉내 낼 수 있는 게 아니에요."
+            ]
+          }
+        },
+        {
+          "type": "Deduction",
+          "text": "B-2 통로, 유지보수 코드, 사라진 녹음기와 메모리카드는 무엇을 함께 보여 주나?",
+          "choices": [
+            {
+              "text": "심태오는 B-2로 위장 사망 현장을 빠져나온 뒤, 설비를 조작하며 자신을 알아본 사람과 증거를 차례로 없앴다.",
+              "correct": true,
+              "feedback": "통로는 생존을, 코드는 이후의 행동을, 사라진 기록물은 살해 목적을 설명한다."
+            },
+            {
+              "text": "오민재가 도면과 기록을 조작해 연쇄살인을 꾸몄다.",
+              "correct": false,
+              "feedback": "오민재는 기록을 가지고 있었지만, 심태오가 사라진 뒤 입력된 동일한 유지보수 코드를 설명할 수 없다."
+            },
+            {
+              "text": "한도희가 비밀 통로를 이용해 모두에게 복수했다.",
+              "correct": false,
+              "feedback": "한도희는 구조와 열쇠를 알지만, 심태오 식별 코드와 점검일에 맞춘 꽃 주문까지는 설명하지 못한다."
+            }
+          ]
+        },
+        {
+          "type": "RpBeat",
+          "rpActor": "BOTH",
+          "rpPrompt": "넷이 죽고, 흩어진 자료 앞에서 무엇을 집을지 골라야 했습니다. 손에 쥔 것을 두고 두 사람이 나누는 대화를 RP 하세요."
+        }
+      ]
+    },
+    {
+      "id": "s9_final",
+      "title": "9. 지목",
+      "background": "Backgrounds/study_room",
+      "beats": [
+        {
+          "type": "Narration",
+          "text": "꽃은 한도희의 복수처럼 보였다. 그러나 익명 주문의 수령일은 심태오의 점검일과 겹쳤고, 마지막 꽃대에는 설비용 검은 테이프가 감겨 있었다. 누군가는 한도희의 원한을 빌려 표식을 만들었다."
+        },
+        {
+          "type": "Narration",
+          "text": "심태오의 작업복에는 흘린 피가 아니라 겉에 묻힌 피가 남았고, 안경에는 폭발 흔적이 없었다. B-2는 보안실 뒤편으로 이어졌다. 그가 사라진 뒤에도 복도등과 자동잠금에는 같은 유지보수 코드가 입력됐다. 배세린은 5년 전 그를 보았고, 강우진은 위장 사망을 알아챘으며, 오민재는 퇴로와 원본 기록에 닿았다."
+        },
+        {
+          "type": "Narration",
+          "text": "윤세현은 책임을 떠넘기려 했고, 배세린·강우진·오민재는 차례로 심태오에게 가까워졌다. P1의 침묵은 죄였지만 살인의 증거는 아니었다. 이제 흩어진 단서들은 하나의 생존자와 하나의 계획으로 이어진다."
+        },
+        {
+          "type": "RpBeat",
+          "rpActor": "BOTH",
+          "rpPrompt": "심태오의 위장 사망, 이후의 유지보수 코드, 피해자들이 알고 있던 사실을 순서대로 맞춰 보세요. 동시에 {P1}의 거짓말이 살인이 아닌 죄책감에서 비롯됐다는 점을 두 사람이 어떻게 받아들이는지 RP 하세요."
+        },
+        {
+          "type": "Accusation",
+          "text": "범인을 지목하라. 한 번뿐이다 — 틀리면 돌이킬 수 없다.",
+          "suspects": [
+            "host",
+            "serin",
+            "ryu",
+            "dohee",
+            "woojin",
+            "minjae",
+            "seoyoon",
+            "taeo",
+            "PLAYER1"
+          ],
+          "presumedDead": [
+            "host",
+            "serin",
+            "woojin",
+            "minjae",
+            "taeo"
+          ]
+        }
+      ]
+    }
+  ],
+  "endings": [
+    {
+      "id": "ending_salvation",
+      "title": "엔딩 · 같이 맞은 아침",
+      "kind": "salvation",
+      "beats": [
+        {
+          "type": "Narration",
+          "text": "두 사람이 같은 이름을 불렀다. — 심태오. 죽은 줄 알았던 사람."
+        },
+        {
+          "type": "Narration",
+          "text": "낡은 방송 스피커에서 잡음이 흘렀다. 그리고 그의 목소리가 들렸다."
+        },
+        {
+          "type": "Line",
+          "speaker": "taeo",
+          "text": "거기까지 맞췄군요. 윤세현은 원본 장부를 공개하고 모든 책임을 내게 넘기려 했어요. 나는 불을 낸 게 아닙니다. 경보와 문을 끊으라는 지시를 따랐을 뿐이에요. 그런데 이제 와서 나만 죄인이라고?"
+        },
+        {
+          "type": "Line",
+          "speaker": "dohee",
+          "text": "내 동생은, 그 문 앞에서 죽었어. ……그 문을 열 수 없게 만든 게 너였어?"
+        },
+        {
+          "type": "Narration",
+          "text": "스피커 너머의 침묵 뒤로 금속 문이 잠기는 소리가 났다. 그 침묵은 5년 전의 죄와 오늘 밤의 살인을 모두 인정하는 대답이었다."
+        },
+        {
+          "type": "Narration",
+          "text": "두 사람은 작업복의 겉피, 그을음 없는 안경, B-2 통로, 세 차례의 유지보수 코드를 맞춰 그의 위치를 좁혔다. 한도희가 비상 열쇠를 내놓고 류기훈이 잠긴 문을 부쉈다. 심태오가 설비를 다시 잠그기 전에 두 사람은 구관 보안실에 닿았다."
+        },
+        {
+          "type": "Narration",
+          "text": "아침이 오고 눈이 그쳤다. 사라진 녹음기와 메모리카드도 보안실에서 발견됐다. 심태오는 붙잡히는 순간까지 ‘살려고 했을 뿐’이라고 말했지만, 그가 없앤 사람들의 이름이 그 말을 덮었다."
+        },
+        {
+          "type": "RpBeat",
+          "rpActor": "BOTH",
+          "rpPrompt": "긴 밤이 끝났습니다. 서로를 끝까지 믿은 두 사람이 현관 앞에서 건네는 마지막 말을 RP 하세요."
+        }
+      ]
+    },
+    {
+      "id": "ending_trust_blind",
+      "title": "엔딩 · 증거보다 먼저 믿었다",
+      "kind": "truth",
+      "beats": [
+        {
+          "type": "Narration",
+          "text": "두 사람은 심태오를 지목했다. 결정적인 단서 몇 개는 놓쳤지만, 각자 본 작업복의 모순과 사라진 뒤의 설비 기록을 숨김없이 합치자 죽은 사람의 동선이 다시 이어졌다."
+        },
+        {
+          "type": "Line",
+          "speaker": "taeo",
+          "text": "……원본 기록도 전부 못 봤으면서. 어떻게 내 동선을 맞췄죠?"
+        },
+        {
+          "type": "Line",
+          "speaker": "PLAYER1",
+          "text": "(확신만으로 고른 게 아니야. 내가 놓친 것을 네가 봤고, 네가 두려워 말하지 못한 것을 내가 끝까지 들었으니까.)"
+        },
+        {
+          "type": "Narration",
+          "text": "완전한 물증은 부족했지만, 두 사람이 서로에게 감춘 것이 없었기에 심태오의 거짓 죽음은 성립하지 않았다. 그들은 B-2 출구를 먼저 막았고, 심태오는 버려 둔 작업복과 설비 기록을 끝내 설명하지 못했다."
+        },
+        {
+          "type": "Narration",
+          "text": "아침이 오고 눈이 그쳤다. 일부 증거는 끝내 찾지 못했지만, 두 사람이 공유한 불완전한 조각은 혼자 쥔 완전한 거짓말보다 강했다."
+        },
+        {
+          "type": "RpBeat",
+          "rpActor": "BOTH",
+          "rpPrompt": "모든 증거를 본 것은 아니지만, 서로가 본 것과 숨긴 것을 끝까지 나누어 답에 닿았습니다. ‘어떻게 끝까지 내 말을 들었어?’ — 두 사람이 나누는 마지막 대화를 RP 하세요."
+        }
+      ]
+    },
+    {
+      "id": "ending_truth",
+      "title": "엔딩 · 진실의 값",
+      "kind": "truth",
+      "beats": [
+        {
+          "type": "Narration",
+          "text": "두 사람은 심태오를 지목했다. 작업복의 겉피, B-2 통로, 유지보수 코드, 사라진 기록물을 차례로 제시하자 구관 보안실의 잠금이 풀렸다."
+        },
+        {
+          "type": "Line",
+          "speaker": "taeo",
+          "text": "……맞혔네요. 하지만 봤죠? 진실에 닿기 전 당신들조차 서로를 의심했어요. 윤세현은 그걸 알았고, 나도 이용했죠."
+        },
+        {
+          "type": "Narration",
+          "text": "심태오는 체포됐고 보안실에서 오민재의 녹음기와 카메라 메모리카드가 발견됐다. 5년 전 각자의 죄도 함께 드러났다. 다만 진실을 얻는 동안 내뱉은 의심까지 없던 일이 되지는 않았다."
+        },
+        {
+          "type": "Narration",
+          "text": "구조대가 왔을 때 두 사람은 살아 있었다. 다만 서로를 보는 눈빛에, 어젯밤의 그림자가 옅게 남았다."
+        },
+        {
+          "type": "RpBeat",
+          "rpActor": "BOTH",
+          "rpPrompt": "진실은 밝혔지만 마음엔 흠집이 남았습니다. {P1}은 자신을 의심했던 {P2}의 눈빛을 기억합니다. 두 사람의 마지막 대화를 RP 하세요."
+        }
+      ]
+    },
+    {
+      "id": "ending_hollow",
+      "title": "엔딩 · 식어버린 자리",
+      "kind": "truth",
+      "beats": [
+        {
+          "type": "Narration",
+          "text": "두 사람은 심태오를 지목했다. 맞는 이름이었다. 하지만 그 이름에 닿기까지, 두 사람은 서로를 의심했고, 단서의 절반은 끝내 손에 쥐지 못했다."
+        },
+        {
+          "type": "Line",
+          "speaker": "taeo",
+          "text": "……맞히긴 했네요. 서로를 믿지 못해서 같은 단서를 두 번씩 의심하면서도. 조금만 늦었으면 나는 이미 B-2를 빠져나갔을 겁니다."
+        },
+        {
+          "type": "Narration",
+          "text": "증거는 모자랐지만 유지보수 코드와 B-2 통로가 심태오의 거짓 죽음을 무너뜨렸다. 두 사람은 가까스로 퇴로를 막았고 그는 체포됐다. 정답은 맞았지만, 그 과정에서 서로에게 남긴 말은 회수되지 않았다."
+        },
+        {
+          "type": "Narration",
+          "text": "구조대가 왔을 때 두 사람은 살아 있었다. 다만 나란히 앉은 자리 사이에, 밤새 식어버린 거리감이 그대로 남아 있었다. 맞은 답조차, 두 사람을 다시 가깝게 만들어 주진 못했다."
+        },
+        {
+          "type": "RpBeat",
+          "rpActor": "BOTH",
+          "rpPrompt": "답은 맞혔지만, 믿음도 증거도 반쪽이었습니다. 서로를 의심했던 밤을 사이에 둔 두 사람의, 어색하고 식은 마지막 대화를 RP 하세요."
+        }
+      ]
+    },
+    {
+      "id": "ending_p1_accused",
+      "title": "엔딩 · 신고한 사람",
+      "kind": "bad",
+      "beats": [
+        {
+          "type": "Narration",
+          "text": "{P2}는 결국 {P1}을 지목했다. 5년 전 신고자였고, 신고 전의 공백을 끝내 설명하지 못했고, 시신 곁엔 그의 장신구가 있었고, 메모에도 그의 이름이 남아 있었으니까."
+        },
+        {
+          "type": "Line",
+          "speaker": "PLAYER1",
+          "requiresFlag": "p1_end_betrayal",
+          "text": "……너였구나. 무슨 일이 있어도 내 편이라던, 네가."
+        },
+        {
+          "type": "Line",
+          "speaker": "PLAYER2",
+          "requiresFlag": "p1_end_betrayal",
+          "text": "믿었어. 끝까지 믿고 싶었어. 그런데도 손가락이 너를 향했어. 그게… 나도 무서웠어."
+        },
+        {
+          "type": "Line",
+          "speaker": "PLAYER1",
+          "requiresFlag": "p1_end_betrayal",
+          "text": "난 끝까지, 네 손만은 놓지 않을 줄 알았는데."
+        },
+        {
+          "type": "Line",
+          "speaker": "PLAYER2",
+          "requiresFlag": "p1_end_cold",
+          "text": "더는 못 믿겠어. 네가 숨긴 게 너무 많아. 처음부터 끝까지."
+        },
+        {
+          "type": "Line",
+          "speaker": "PLAYER1",
+          "requiresFlag": "p1_end_cold",
+          "text": "……그래. 숨겼지. 그런데 그걸로 끝이야? 그동안 우리가 쌓은 건, 그렇게 가벼웠어?"
+        },
+        {
+          "type": "Narration",
+          "requiresFlag": "p1_end_cold",
+          "text": "{P2}는 대답하지 않았다. 두 사람 사이의 공기는 이미 얼어 있었다."
+        },
+        {
+          "type": "Line",
+          "speaker": "PLAYER2",
+          "requiresFlag": "p1_end_forced",
+          "text": "장신구도, 신고 기록도, 신고 전 공백도, 바뀐 진술도 — 전부 너를 가리켰어. 난 다른 답을 찾을 수가 없었어."
+        },
+        {
+          "type": "Line",
+          "speaker": "PLAYER1",
+          "requiresFlag": "p1_end_forced",
+          "text": "……알아. 나라도 날 의심했을 거야. 그래서 억울하다는 말조차, 못 하겠어."
+        },
+        {
+          "type": "Line",
+          "speaker": "PLAYER1",
+          "text": "신고가 늦었던 건 맞아. 본 걸 다 말하지 않은 것도 맞아. 그런데 내가 사람을 죽였다고… 정말 그렇게 생각했어?"
+        },
+        {
+          "type": "Line",
+          "speaker": "PLAYER1",
+          "text": "신고가 늦었던 건 맞아. 공방 안에서 문을 두드리는 소리도, 보안실에서 작업복 차림의 사람이 나오는 것도 봤어. 겁에 질려 몇 분을 서 있었고, 그 사람 얼굴을 말하지 못했어. 그게 내 죄야. 살인이 아니라."
+        },
+        {
+          "type": "Narration",
+          "text": "{P2}는 아무 말도 하지 못했다. 이미 내뱉은 이름은 주워 담을 수 없었고, 두 사람 사이엔 밤새 쌓인 의심만 무너진 채 흩어져 있었다."
+        },
+        {
+          "type": "Narration",
+          "text": "그때, 낡은 방송 스피커에서 잡음이 흘렀다."
+        },
+        {
+          "type": "Line",
+          "speaker": "taeo",
+          "text": "좋은 선택이었어요. 신고자의 침묵과 유족의 원한, 꽃집의 약품. 조금씩 흩어 놓으면 사람들은 살아 있는 기술자보다 서로를 먼저 보더군요."
+        },
+        {
+          "type": "Narration",
+          "text": "별장의 불이 일제히 꺼졌다. 어둠 속에서 무언가 빠르게 움직였다."
+        },
+        {
+          "type": "Line",
+          "speaker": "PLAYER2",
+          "requiresFlag": "p1_end_betrayal",
+          "text": "{P1}…?! 아니야, 내가 틀렸어. 끝까지 믿었어야 했는데 —— 거기 있어, 가지 마——"
+        },
+        {
+          "type": "Line",
+          "speaker": "PLAYER2",
+          "requiresFlag": "p1_end_cold",
+          "text": "{P1}…? 우리, 언제부터 서로를 놓아버린 걸까. ……대답 좀 해."
+        },
+        {
+          "type": "Line",
+          "speaker": "PLAYER2",
+          "requiresFlag": "p1_end_forced",
+          "text": "증거가 전부 너를 가리켰어. 그런데 왜, 하필 지금에서야 — 네가 아닌 것 같은 거야. {P1}, 대답해——"
+        },
+        {
+          "type": "Narration",
+          "text": "짧은 비명, 그리고 무언가 쓰러지는 소리. 다시 불이 들어왔을 때 — {P1}은 바닥에 누운 채 움직이지 않았다. {P2}의 손끝에 닿은 온기는, 이미 빠르게 식어가고 있었다."
+        },
+        {
+          "type": "Narration",
+          "text": "진짜 범인은 끝내 통로 너머로 사라졌다. 두 사람을 끝까지 무너뜨린 그 의심만이, 텅 빈 별장에 남았다. 눈은 그 위에 다시, 아무 일 없었다는 듯 내렸다."
+        },
+        {
+          "type": "RpBeat",
+          "rpActor": "PLAYER2",
+          "rpPrompt": "{P1}은 더 이상 대답하지 않습니다. 자기 손으로 그 이름을 부른 {P2}가, 식어가는 손을 붙잡고 어둠 속에서 건네는 마지막 말을 RP 하세요."
+        }
+      ]
+    },
+    {
+      "id": "ending_bad",
+      "title": "엔딩 · 눈 아래 묻힌 것",
+      "kind": "bad",
+      "beats": [
+        {
+          "type": "Narration",
+          "text": "지목은 빗나갔다. 밤새 쌓인 단서는 끝내 하나의 이름으로 모이지 않았고, 손가락은 엉뚱한 곳을 향했다."
+        },
+        {
+          "type": "Line",
+          "speaker": "taeo",
+          "text": "(스피커 너머에서) ……틀렸어요. 작업복도, 통로도, 내가 사라진 뒤의 기록도 봤으면서. 그래도 결국 살아 있는 사람끼리 서로를 골랐군요."
+        },
+        {
+          "type": "Narration",
+          "text": "별장의 불이 일제히 꺼졌다. 심태오의 유지보수 코드가 다시 보안 시스템을 잠갔다. 짧은 비명과 무언가 쓰러지는 소리. 다시 불이 들어왔을 때 — {P1}은 바닥에 누운 채 움직이지 않았다."
+        },
+        {
+          "type": "Line",
+          "speaker": "PLAYER2",
+          "text": "{P1}…? 일어나. 농담이지, 일어나라고——"
+        },
+        {
+          "type": "Narration",
+          "text": "{P2}의 손끝에 닿은 온기는 빠르게 식어갔다. 진짜 범인은 끝내 통로 너머로 사라졌고, 진실은 {P1}에게 너무 늦게 도착했다. 눈은 그 위에 다시, 아무 일 없었다는 듯 내렸다."
+        },
+        {
+          "type": "RpBeat",
+          "rpActor": "PLAYER2",
+          "rpPrompt": "{P1}은 더 이상 대답하지 않습니다. 홀로 남은 {P2}가 식어가는 손을 붙잡고 건네는 마지막 말을 RP 하세요."
+        }
+      ]
+    }
+  ]
+}

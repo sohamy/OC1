@@ -1,0 +1,25 @@
+{
+  "dependencies": {
+    "com.unity.collab-proxy": "2.7.1",
+    "com.unity.ide.rider": "3.0.36",
+    "com.unity.ide.visualstudio": "2.0.22",
+    "com.unity.nuget.newtonsoft-json": "3.2.1",
+    "com.unity.textmeshpro": "3.0.7",
+    "com.unity.timeline": "1.7.7",
+    "com.unity.toolchain.win-x86_64-linux-x86_64": "2.0.11",
+    "com.unity.ugui": "2.0.0",
+    "com.unity.modules.audio": "1.0.0",
+    "com.unity.modules.imageconversion": "1.0.0",
+    "com.unity.modules.imgui": "1.0.0",
+    "com.unity.modules.jsonserialize": "1.0.0",
+    "com.unity.modules.physics": "1.0.0",
+    "com.unity.modules.physics2d": "1.0.0",
+    "com.unity.modules.terrain": "1.0.0",
+    "com.unity.modules.terrainphysics": "1.0.0",
+    "com.unity.modules.ui": "1.0.0",
+    "com.unity.modules.uielements": "1.0.0",
+    "com.unity.modules.unitywebrequest": "1.0.0",
+    "com.unity.modules.unitywebrequesttexture": "1.0.0"
+  },
+  "comment": "Mirror와 StandaloneFileBrowser는 README의 설치 안내를 따라 추가하세요. 이 두 가지를 넣기 전까지는 Network/ 및 FileDialog 관련 스크립트에서 컴파일 에러가 납니다 (정상)."
+}
