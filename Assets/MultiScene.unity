@@ -408,7 +408,7 @@ MonoBehaviour:
   onlineScene: 
   offlineSceneLoadDelay: 0
   transport: {fileID: 1052387662}
-  networkAddress: localhost
+  networkAddress: 20.196.155.205
   maxConnections: 100
   disconnectInactiveConnections: 0
   disconnectInactiveTimeout: 60
